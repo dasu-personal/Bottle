@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+    
+
+    <TextView
+        android:id="@+id/headTextBack"
+                        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="normal"
+        android:textColor="#ffcccccc"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/imageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1"
+        android:lineSpacingExtra="0pt"
+        android:paddingTop = "0pt"
+        android:paddingBottom = "0pt"
+        android:typeface="normal"
+        android:includeFontPadding="false"
+        />
+
+     <com.example.bottle.DrawView
+         android:id="@+id/paintView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true" />
+     <TextView
+        android:id="@+id/conclusionBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="#ff000000"
+        >
+        </TextView>
+     <TextView
+        android:id="@+id/conclusionText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:typeface="normal"
+        android:includeFontPadding="false"
+        android:textColor="#ffffffff"
+        android:text="Blah Blah Aliens and such and such"
+        >
+         
+     </TextView>
+
+</RelativeLayout>
