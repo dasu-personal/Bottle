@@ -38,7 +38,7 @@
         android:includeFontPadding="false"
         />
 
-     <com.example.bottle.DrawView
+     <com.dasugames.bottle.DrawView
          android:id="@+id/paintView"
          android:layout_width="fill_parent"
          android:layout_height="fill_parent"
