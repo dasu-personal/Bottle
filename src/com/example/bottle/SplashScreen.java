@@ -10,6 +10,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 
+/**
+ * This is a very simple activity to show a black screen as
+ * a title / splash screen before transitioning to the main
+ * activity after a few seconds.
+ * @author darren.sue
+ *
+ */
 public class SplashScreen extends Activity {
 
 	MediaPlayer current_music;
@@ -35,18 +42,6 @@ public class SplashScreen extends Activity {
 
     }
     
-    /*
-	@Override
-	protected void onResume()
-	{	
-		super.onResume();
-		Intent a = new Intent(this, SplashScreen.class);
-        a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(a);
-        overridePendingTransition(0, 0);
-        finish();
-	}
-	*/
 
 
 	@Override
